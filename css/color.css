@@ -1,7 +1,5 @@
 @charset "utf-8";
-/*--
-	Color styles
---*/
+
 header li.act-link a , .text-title span , .dec-list li:before  , .resum-header i , .sl-tabs li i , .testimonials-slider ul.star-rating li , .to-top-wrap i ,.scroll-nav a.external:after , .mail-link:hover  , .price  , .fixed-filter .gallery-filters a.gallery-filter-active , .slider-zoom , .page-nav a span , .post-meta li i , .post-author-wrap li a , .controls button , .sliding-menu a:hover{
 	color:#4B9CD3;
 }
@@ -16,4 +14,9 @@ header.sticky  li.act-link a , .footer-social li a  ,   .share-icon , .fixed-ico
 }
 .hd-box-wrap h2:after{
 	border-color: transparent #4B9CD3 transparent transparent;
+}
+
+.menu a:hover {
+	color: rgb(255, 255, 255);
+	background-color: #404040;
 }
