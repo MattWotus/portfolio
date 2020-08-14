@@ -286,6 +286,7 @@ blockquote p {
 
 .parallax-title.right-pos {
 	right: 50px;
+	top: 0px;
 }
 
 .no-padding {
@@ -1405,30 +1406,6 @@ section.dec-sec:after {
 	position: relative;
 	padding: 30px 10px 30px 70px;
 	background: #f9f9f9;
-}
-
-.resum-header:after {
-	font-family: FontAwesome;
-	font-style: normal;
-	font-weight: normal;
-	text-decoration: inherit;
-	position: absolute;
-	color: #666;
-	bottom: 10px;
-	font-size: 70px;
-	right: 10px;
-	opacity: 0.08;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-
-.resum-header.educ:after {
-	content: "\f19c";
-}
-
-.resum-header.workres:after {
-	content: "\f0c3";
 }
 
 .resum-header:before {
