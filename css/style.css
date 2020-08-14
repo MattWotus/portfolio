@@ -3516,12 +3516,17 @@ article h4 a:hover {
 		top: 0;
 		left: 0;
 		height: 70px;
+		display: block;
 	}
 
 	.nav-button {
 		top: 24px;
 		left: 30px;
 		margin-top: 0;
+	}
+
+	.nav-button:after {
+		display: none;
 	}
 
 	.logo-holder {
@@ -3771,6 +3776,10 @@ article h4 a:hover {
 	.inline-facts,
 	.gallery-item {
 		width: 100% !important;
+	}
+
+	.menu-wrap {
+		width: 100%;
 	}
 }
 
