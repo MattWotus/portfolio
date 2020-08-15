@@ -191,7 +191,7 @@ blockquote p {
 
 .column-wrap {
 	float: right;
-	width: 70%;
+	width: 80%;
 	position: relative;
 	padding-right: 70px;
 }
@@ -334,7 +334,7 @@ blockquote p {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 30%;
+	width: 20%;
 	height: 100%;
 	padding-left: 70px;
 	z-index: 4;
@@ -356,7 +356,7 @@ blockquote p {
 	position: absolute;
 	top: 50%;
 	left: 0;
-	width: 100%;
+	width: 70%;
 	height: 1px;
 	background: rgba(255, 255, 255, 0.51);
 	z-index: 1;
@@ -373,11 +373,11 @@ blockquote p {
 
 .bg-title {
 	position: absolute;
-	bottom: -15%;
+	bottom: -5%;
 	left: 45%;
 	font-size: 94px;
 	width: 100%;
-	min-height: 300px;
+	min-height: auto;
 	text-transform: uppercase;
 	font-weight: 900;
 	-webkit-transform: rotate(-90deg);
