@@ -968,29 +968,6 @@ section {
 	padding: 70px 0;
 }
 
-section.dec-sec:before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 50%;
-	height: 1px;
-	border-top: 1px dashed #ccc;
-}
-
-section.dec-sec:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 7px;
-	height: 7px;
-	border-radius: 100%;
-	background: #eee;
-	margin-bottom: -2px;
-	margin-left: 15px;
-}
-
 .section-title {
 	float: left;
 	width: 100%;
