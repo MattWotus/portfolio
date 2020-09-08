@@ -3405,6 +3405,15 @@ article h4 a:hover {
 	content: "\f1a4";
 }
 
+@media only screen and (max-width: 1440px) {
+
+	.menu-wrap {
+		width: 245px;
+	}
+
+}
+
+
 @media only screen and (max-width: 1392px) {
 
 	.abt-wrap .box-item,
