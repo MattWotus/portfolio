@@ -953,6 +953,16 @@ header.main-header {
 	opacity: 1;
 }
 
+#back {
+	position: absolute;
+	top: 20px;
+	left: 15px;
+}
+
+.fa-arrow-alt-circle-left {
+	color: #4B9CD3;
+}
+
 section {
 	float: left;
 	width: 100%;
@@ -3481,6 +3491,10 @@ article h4 a:hover {
 		left: 0;
 		height: 70px;
 		display: block;
+	}
+
+	#back {
+		top: 8px;
 	}
 
 	.nav-button {
