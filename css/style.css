@@ -32,7 +32,6 @@ body {
 	width: device-width;
 }
 
-/*--------------Typography--------------------------------------*/
 p {
 	text-align: left;
 	font-size: 12px;
@@ -45,6 +44,7 @@ blockquote {
 	float: left;
 	padding: 10px 20px;
 	margin: 0 0 20px;
+	margin-top: 20px;
 	font-size: 17.5px;
 	border-left: 15px solid #eee;
 }
@@ -84,7 +84,6 @@ blockquote p {
 	margin-bottom: 10px;
 }
 
-/*------ loader-------------------------------------------------*/
 .loader-holder {
 	position: fixed;
 	width: 50px;
@@ -150,7 +149,6 @@ blockquote p {
 	}
 }
 
-/* ---------Content Styles--------------------------------------*/
 #main {
 	height: 100%;
 	width: 100%;
@@ -329,7 +327,6 @@ blockquote p {
 	display: none;
 }
 
-/*------ Fixed-column ------------------------------------------------*/
 .fixed-column {
 	position: fixed;
 	top: 0;
@@ -406,7 +403,6 @@ blockquote p {
 	margin-top: 30px !important;
 }
 
-/* ---------Button--------------------------------------*/
 .btn {
 	float: left;
 	margin-top: 10px;
@@ -477,7 +473,6 @@ blockquote p {
 	padding-right: 11px;
 }
 
-/*------ Header  ------------------------------------------------*/
 header.main-header {
 	position: fixed;
 	width: 70px;
@@ -698,7 +693,6 @@ header.main-header {
 	transition-delay: 0.4s;
 }
 
-/*------ Footer ------------------------------------------------*/
 .footer-social {
 	position: absolute;
 	top: 80px;
@@ -802,7 +796,6 @@ header.main-header {
 	transition: all 500ms linear;
 }
 
-/*------ Scroll nav------------------------------------------------*/
 .arrowpagenav {
 	position: fixed;
 	top: 50%;
@@ -960,7 +953,6 @@ header.main-header {
 	opacity: 1;
 }
 
-/*------ section-------------------------------------------------*/
 section {
 	float: left;
 	width: 100%;
@@ -1010,7 +1002,6 @@ section {
 	max-width: 500px;
 }
 
-/*------ Home -------------------------------------------------*/
 .hero-slider-holder {
 	position: relative;
 	overflow: hidden;
@@ -1214,7 +1205,6 @@ section {
 	color: rgb(255, 255, 255);
 }
 
-/*------ 404 ------------------------------------------------*/
 .error-wrap h2 {
 	color: #fff;
 	font-size: 154px;
@@ -1242,7 +1232,6 @@ section {
 	font-size: 17px;
 }
 
-/*------ facts ------------------------------------------------*/
 .inline-facts {
 	float: left;
 	width: 25%;
@@ -1342,7 +1331,6 @@ section {
 	font-size: 26px;
 }
 
-/* ---------Resume  --------------------------------------*/
 .custom-inner-holder {
 	float: left;
 	margin-top: 60px;
@@ -1462,7 +1450,6 @@ section {
 	margin-top: 20px;
 }
 
-/*------  services ------------------------------------------------*/
 .sl-tabs {
 	float: left;
 	width: 100%;
@@ -1568,7 +1555,6 @@ section {
 	background: #404040;
 }
 
-/*------ order ------------------------------------------------*/
 .order-wrap {
 	padding: 30px 25px;
 	margin-top: 30px;
@@ -1632,7 +1618,6 @@ section {
 	color: rgba(255, 255, 255, 0.51);
 }
 
-/*------skills ------------------------------------------------*/
 .skills-wrap {
 	float: left;
 	width: 100%;
@@ -1771,7 +1756,6 @@ section {
 	margin-top: 0;
 }
 
-/*--------------Testimonials--------------------------------------*/
 .testimonials-slider-holder {
 	padding: 40px 0;
 	margin-bottom: 40px;
@@ -2006,7 +1990,6 @@ section {
 	color: #999;
 }
 
-/*------ Porfolio  ------------------------------------------------*/
 .gallery-items {
 	float: left;
 	width: 100%;
@@ -2525,7 +2508,6 @@ section {
 	overflow: hidden;
 }
 
-/*------ Video ------------------------------------------------*/
 .iframe-holder {
 	float: left;
 	position: relative;
@@ -2637,7 +2619,6 @@ source {
 	position: absolute;
 }
 
-/*------ Contacts------------------------------------------------*/
 .contact-info {
 	float: left;
 	width: 100%;
@@ -2828,7 +2809,6 @@ input[type=email]:focus {
 	margin: 35px 0;
 }
 
-/*------ map - ------------------------------------------------*/
 .map-box {
 	float: left;
 	width: 100%;
@@ -2852,7 +2832,6 @@ input[type=email]:focus {
 	margin: 0;
 }
 
-/* ------blog------------------------------------------------------------ */
 article,
 .pagination {
 	float: left;
@@ -3271,7 +3250,6 @@ article h4 a:hover {
 	border-radius: 100%;
 }
 
-/*------ share------------------------------------------------*/
 .show-share {
 	position: absolute;
 	bottom: 40px;
