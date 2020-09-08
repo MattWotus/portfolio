@@ -1,10 +1,5 @@
 function initCooper() {
     "use strict";
-	/*
-	  =======================================================================
-		  		Window Load 
-	  =======================================================================
-	*/	
     $(".loader-holder").fadeOut(500, function() {
         $("#main").animate({
             opacity: "1"
@@ -14,11 +9,6 @@ function initCooper() {
     bgImage.each(function(a) {
         if ($(this).attr("data-bg")) $(this).css("background-image", "url(" + $(this).data("bg") + ")");
     });
-	/*
-	  =======================================================================
-		  		Tabs 
-	  =======================================================================
-	*/
     $("ul.tabs li").on("click", function() {
         var a = $(this).attr("data-tab"), b = $("ul.tabs li");
         b.removeClass("current");
@@ -27,11 +17,6 @@ function initCooper() {
         $("#" + a).addClass("current");
         return false;
     });
-	/*
-	  =======================================================================
-		  		Page nav 
-	  =======================================================================
-	*/
     var bgi2 = $(".fbgs").data("bgscr");
     var bgt2 = $(".fbgs").data("bgtex");
     $(".bg-scroll").css("background-image", "url(" + bgi2 + ")");
@@ -77,11 +62,6 @@ function initCooper() {
     $window.resize(function() {
         a();
     });
-	/*
-	  =======================================================================
-		  		Owl carousel
-	  =======================================================================
-	*/
     var sync2 = $(".fscs");
     sync2.owlCarousel({
         loop: true,
@@ -196,11 +176,6 @@ function initCooper() {
         $(this).closest(".single-carousel-holder").find(e).trigger("prev.owl.carousel");
         return false;
     });
-	/*
-	  =======================================================================
-		  		Isotope
-	  =======================================================================
-	*/
     function n() {
         if ($(".gallery-items").length) {
             var a = $(".gallery-items").isotope({
@@ -235,11 +210,6 @@ function initCooper() {
     n();
     var gat = $(".gallery-filter-active").text();
     $(".filt-text").text(gat);
-	/*
-	  =======================================================================
-		  		LightGallery
-	  =======================================================================
-	*/
     $(".image-popup").lightGallery({
         selector: "this",
         cssEasing: "cubic-bezier(0.25, 0, 0.25, 1)",
@@ -271,11 +241,6 @@ function initCooper() {
     }); else $(".bg-title").css({
         "font-size": "94px"
     });
-	/*
-	  =======================================================================
-		  		Scroll animation
-	  =======================================================================
-	*/	
     $(".stats").appear(function() {
         $(".num").countTo();
     });
@@ -301,11 +266,6 @@ function initCooper() {
             }, 1500);
         });
     });
-	/*
-	  =======================================================================
-		  		Share
-	  =======================================================================
-	*/
     var shcm = $(".share-container"), shs = eval(shcm.attr("data-share")), ssr = $(".show-share");
     shcm.share({
         networks: shs
@@ -343,11 +303,6 @@ function initCooper() {
         if (ssr.hasClass("isShare")) showShare(); else hideShare();
         return false;
     });
-	/*
-	  =======================================================================
-		  		Progress
-	  =======================================================================
-	*/
     $window.on("scroll", function(a) {
         var a = $(document).height();
         var b = $(window).height();
@@ -361,11 +316,6 @@ function initCooper() {
     $(".arrowpagenav a").on("click", function(a) {
         a.preventDefault();
     });
-	/*
-	  =======================================================================
-		  		Scroll To Object 
-	  =======================================================================
-	*/
     $(".custom-scroll-link").on("click", function() {
         var a = 20;
         if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") || location.hostname == this.hostname) {
@@ -398,11 +348,6 @@ function initCooper() {
             $(this).parents(".single-carousel .item").find(".bg").removeClass("hov-rot");
         }
     });
-	/*
-	  =======================================================================
-		  		Menu
-	  =======================================================================
-	*/
     var Menu = {
         el: {
             ham: $(".nav-button"),
@@ -427,11 +372,6 @@ function initCooper() {
     };
     Menu.init();
     $("#hid-men").menu();
-	/*
-	  =======================================================================
-		  		Contact form
-	  =======================================================================
-	*/	
     $("#contactform").submit(function() {
         var a = $(this).attr("action");
         $("#message").slideUp(750, function() {
@@ -455,11 +395,6 @@ function initCooper() {
     $("#contactform input, #contactform textarea").keyup(function() {
         $("#message").slideUp(1500);
     });
-	/*
-	  =======================================================================
-		  		Video 
-	  =======================================================================
-	*/
     var l = $(".background-video").data("vid");
     var m = $(".background-video").data("mv");
     $(".background-video").YTPlayer({
@@ -478,11 +413,6 @@ function initCooper() {
         $one.css(browserPrefix + "transform", "rotate3d(" + f + ", " + g + ", 0, " + i + "deg)");
     });
 }
-/*
-=======================================================================
-		  		Parallax
-=======================================================================
-*/
 function initparallax() {
 	"use strict";
     var a = {
@@ -513,11 +443,6 @@ function initparallax() {
     }
     if (trueMobile) $(".background-video").remove();
 }
-/*
-=======================================================================
-		  Init all
-=======================================================================
-*/
 $(function() {
     initparallax();
     initCooper();
