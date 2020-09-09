@@ -34,9 +34,6 @@ function initCooper() {
         zIndex: 12,
         preUnfixed: function() {
             $(this).css("margin-top", "0");
-        },
-        preFixed: function() {
-            if ($(window).width() < 1064) $(this).css("margin-top", "70px");
         }
     });
     function a() {
