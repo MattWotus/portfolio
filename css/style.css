@@ -302,7 +302,7 @@ blockquote p {
 	text-align: left;
 	position: relative;
 	padding: 15px 0 15px 40px;
-	font-size: 12px;
+	font-size: 18px;
 	border-bottom: 1px solid #eee;
 	font-weight: 600;
 }
@@ -3747,6 +3747,14 @@ article h4 a:hover {
 	}
 }
 
+@media only screen and (max-width: 667px) {
+
+	.respimg {
+		max-width: 40%;
+		margin-bottom: 20px;
+	}
+}
+
 @media only screen and (max-width: 540px) {
 	.scroll-nav-holder {
 		display: none;
@@ -3767,5 +3775,13 @@ article h4 a:hover {
 		background-attachment: scroll !important;
 		-webkit-background-size: cover;
 		background-position: center;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+
+	.respimg {
+		max-width: 75%;
+		margin-bottom: 20px;
 	}
 }
