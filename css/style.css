@@ -302,7 +302,7 @@ blockquote p {
 	text-align: left;
 	position: relative;
 	padding: 15px 0 15px 40px;
-	font-size: 18px;
+	font-size: 12px;
 	border-bottom: 1px solid #eee;
 	font-weight: 600;
 }
@@ -321,6 +321,10 @@ blockquote p {
 	top: 15px;
 	font-size: 16px;
 	left: 0;
+}
+
+.list-font-size {
+	font-size: 18px;
 }
 
 .cts-dot {
